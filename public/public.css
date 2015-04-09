@@ -1,0 +1,62 @@
+html { 
+  background: url("storm_troopers.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+header{
+	background-color: black;
+	height: 100px;
+}
+ul.contact_list {
+								text-align: center;
+								}
+
+ul li a {
+					text-decoration:none;
+
+					font-family: Arial;
+					font-size: 20px;
+					text-align: center;}
+
+
+
+a:link {
+    color: #ffffff;
+    border:3px solid red;
+	}
+a:visited {
+    color: white;
+    border:3px solid red;
+
+	}	
+a:hover {
+    color: red;
+    border:3px solid red;
+	}
+a:active {
+    color: #0000FF;
+    border:3px solid red;
+	}
+
+h1 { 
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	font-family: "Helvetica Neue", helvetica, Arial, Sans Serif;
+	padding-top: 30px;
+}
+h1.app_title { 
+							color:white
+							font-size: 20px;
+							font-family:"Times New Roman",Times, serif";
+						}
+footer {	
+			color:red;
+			text-align:right;
+			width:100%;
+			height:30px;
+			position:absolute;
+			bottom:0;
+		}

@@ -3,7 +3,7 @@ require_relative 'rolodex'
 require 'sinatra'
 
 get '/' do
-  @crm_app_name = "My CRM"
+  @crm_app_name = "CRM APP"
   erb :index
 end
 get "/contacts" do
